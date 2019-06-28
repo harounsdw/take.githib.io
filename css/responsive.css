@@ -1,0 +1,132 @@
+@media (max-width: 775px) {
+/************* header *************/
+body{
+	margin: 0;
+
+}
+header  .circle{
+	position: absolute;
+	top: 2vw;
+	left: 10vw;
+    border:3px solid #fff;
+    border-radius: 50%;
+	width: 5vw;
+	height: 5vw;
+	z-index: 1;
+}
+header .m-circle{
+	position: absolute; 
+	    border:3px solid #fff;
+	    left: 11.5vw;
+	    top: 3.5vw;
+
+    border-radius: 50%;
+	width: 2vw;
+	height: 2vw;
+	z-index: 3;
+}
+header label {
+ position: absolute;
+ top: 2.5vw;
+ left:15vw;
+ }
+ header .title{
+ 	position: relative;
+ 	top: 7vw;
+ 	left: 15vw;
+ 	font-size: 5vw;
+ }
+ header p{
+ 	position: relative;
+ 		top: 8vw;
+ 	left: 15vw;
+ 	font-size: 1.5vw;
+ 	width: 50%;
+ }
+/************* header *************/
+
+/************* wrapper *************/
+.wrapper{
+top:0;
+height: 60vw;
+}
+.wrapper .col h3{
+  position: relative;
+   font-size: 20px;
+  font-family: "OpenSans",sans-serif;
+  color: rgb(255, 255, 255);
+  width: 70%;
+  top: 5vw;
+}
+.wrapper .col p{
+  position: relative;
+ font-size:3vw;
+  font-family: "OpenSans",sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.846;
+  text-align: left;
+width: 80.4%;
+top: 7vw;
+left:10vw;
+bottom: 10vw;
+}
+.wrapper .col a{
+  position: relative;
+     font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.714;
+  top:5vw;
+left:10vw;
+}
+/************* wrapper *************/
+
+/************* green *************/
+ .green{
+ 	left: 0;
+ 	height: auto;
+ }
+ .green .row {
+ 	background-color: #82ca9c;
+ 	background-position: center center center center ;
+ 	height: all;
+ }
+ .green .row h3{
+ 	top: 0; }
+ .green .row p {
+ 	width: 80%;
+ }
+
+ .two-grid p{
+  min-width: 50%;
+
+}
+footer .row .clearfix h3{
+	left: 0;
+ text-align: left;
+right: 0;
+}
+footer .row .clearfix p{
+left: 0;
+z-index: 1;
+ text-align: left;
+right: 0;
+}
+footer .row .clearfix:nth-child(2) h3{
+	right: 0;
+left: 0;
+}
+footer .row .clearfix:nth-child(2) p{
+	right: 0;
+ text-align: center;
+left: 0;
+
+}
+.inputWithIcon{
+ text-align: center;
+	left: 0;
+	right: 0;
+
+ }
+}

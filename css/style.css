@@ -1,0 +1,542 @@
+html,body{
+	padding: 0;
+	margin:0; 
+left: 0;
+right: 0;
+width: 100%;
+overflow-x: hidden;}
+
+/************* header *************/
+header{
+background: url("http://localhost/take/img/Image.jpg") no-repeat;
+background-size: cover;
+height:40vw;
+}
+header .logo{
+	position: relative;
+	left: -4vw;
+}
+
+header .circle{
+	position: absolute;
+	top: 2vw;
+	left: 15vw;
+    border:3px solid #fff;
+    border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	z-index: 1;
+}
+header .m-circle{
+	position: absolute;
+	top: 3vw;
+	left: 16vw;
+    border:3px solid #fff;
+    border-radius: 50%;
+	width: 12px;
+	height: 12px;
+	z-index: 1;
+}
+header label {
+  font-size: 30px;
+  font-family: "Merriweather";
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-weight: bold;
+  line-height: 1;
+  -moz-transform: matrix( 0.87301026510802,0,0,0.86666666666667,0,0);
+  -webkit-transform: matrix( 0.87301026510802,0,0,0.86666666666667,0,0);
+  -ms-transform: matrix( 0.87301026510802,0,0,0.86666666666667,0,0);
+  position: absolute;
+  left: 18.2vw;
+  top: 2.4vw;
+  z-index: 1;
+}
+header .title {
+ 
+ font-size-adjust: 0.58;
+  font-family:"OpenSans",sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  position: relative;
+  left: 13vw;
+  top: 16vw;
+  width: 389px;
+  height: 61px;
+   font-size: 60px;
+}
+header p{
+	 font-size: 13px;
+  font-family: "OpenSans",sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.846;
+  text-align: left;
+  position: relative;
+  left: 13vw;
+  top: 16vw;
+  width: 438px;
+  height: 37px;
+}
+
+/************* header *************/
+
+/************* Start something new *************/
+.container .iPhone{
+position: absolute;
+left: 80vw;
+top: 0;
+width: 45%;
+z-index: 4;
+animation-name: slide;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+overflow-x: hidden;
+}
+.container h1{
+	position: relative;
+	top:0;
+	font-family: "OpenSans",sans-serif,lighter;
+	font-size:3vw;
+}
+.container .row{
+	position: relative;
+	top:0;
+	font-family: "OpenSans",sans-serif,lighter;
+	color: #c6c6c6;
+}
+.container .row .col p{
+	font-size:15px;
+}
+.container .row .col:nth-child(2){
+	top: 5vw;
+}
+@keyframes slide {
+from{ transform : translateX(0);  }
+to{ transform: translateX(-40vw); }
+
+}
+/************* content *************/
+.grid {
+  position: relative;
+  top: 5vw;
+  z-index: 1;
+}
+.grid .col-md-3 {
+  position: relative;
+  top: 5vw;
+  font-size: 13px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+  line-height: 1.846;
+  text-align: left;
+  padding:2vw;
+ 
+}
+.grid .col-md-3:nth-child(1) {
+ background-color: #f5989d;
+
+}
+.grid .col-md-3:nth-child(2) {
+ background-color: #615f7d;
+
+}.grid .col-md-3:nth-child(3) {
+ background:url('http://localhost/take/img/Layer6.jpg') no-repeat;
+ background-size: cover;
+
+}.grid .col-md-3:nth-child(4) {
+ background-color: #bd8cbf;
+
+}
+.grid  .col-md-3 h3{
+  font-size: 20px;
+  font-family: "OpenSans",sans-serif;
+  color: rgb(255, 255, 255);
+ font-weight: lighter;
+  text-align: left;
+}
+.grid  .col-md-3 p {
+  position: relative;
+  margin: 2vw 0;
+}
+.grid  .col-md-3 a{ 
+  position: absolute;
+  font-size: 14px;
+  font-family: "OpenSans",sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+ 
+  text-align: left;
+bottom:0;
+margin-top: 2vw;
+margin-bottom: 1vw;
+z-index: 2;
+}
+.grid  .col-md-3 a img{
+  position: relative;
+  right:-2vw;
+}
+.grid-1{
+  position: relative;
+top: 0;
+}
+.grid-1 .clearfix{
+   position: relative;
+    font-size: 13px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+  line-height: 1.846;
+  text-align: left;
+  padding:2vw;
+}
+.grid-1 .clearfix:nth-child(1){
+   background:url('http://localhost/take/img/Layer5.jpg') no-repeat;
+ background-size: cover;
+}
+.grid-1 .clearfix:nth-child(2){
+background-color: #82ca9c;
+}
+.grid-1 .clearfix:nth-child(3){
+  background:url('http://localhost/take/img/Layer14.png') no-repeat;
+ background-size: cover;
+}
+.grid-1  .clearfix p {
+  position: relative;
+  margin: 1vw;
+}
+.grid-1  .clearfix a{
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  font-family: "OpenSans",sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+ 
+  text-align: left;
+}
+.grid-1  .clearfix a img{
+  position: relative;
+  right:-2vw;
+}
+.grid-1  .clearfix h3{
+  font-size: 20px;
+  font-family: "OpenSans",sans-serif;
+  color: rgb(255, 255, 255);
+ font-weight: lighter;
+  text-align: left;
+}
+.container h1{
+  position: relative;
+ font-family: "OpenSans",sans-serif;
+  color: rgb(34, 38, 38);
+  z-index: 5;
+  margin-top: 4vw;
+}
+.grid-2{
+  position: relative;
+  top:0;
+}
+.grid-2 .col-lg-3{
+  position: relative;
+  top: 0;
+  margin: 0;
+}
+.grid-2 h3{
+  font-size: 13px;
+  font-family: "OpenSans",sans-serif;
+  color: rgb(103, 103, 109);
+  line-height: 1.846;
+
+
+}
+.grid-2 p{
+font-size: 14px;
+  font-family: "Myriad Pro";
+  color: rgb(149, 149, 149);
+ line-height: 1.714;
+}
+
+/************* content *************/
+
+/************* wrapper *************/
+.image{
+background: url("http://localhost/take/img/Layer8.jpg") no-repeat;
+background-size: cover;
+position: relative;
+top:0;
+height: 50vw;
+background-attachment: fixed;
+background-position: center;
+}
+.image .col h3{
+  position: relative;
+   font-size: 30px;
+  font-family: "OpenSans",sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  width:20vw;
+  top: 20vw;
+  left: 10vw;
+}
+.image .col p{
+  position: relative;
+ font-size: 13px;
+  font-family: "OpenSans",sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.846;
+  text-align: left;
+width: 24.4%;
+top: 21vw;
+left:10vw;
+
+}
+.image .col a{
+  position: relative;
+     font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.714;
+  top:23vw;
+left:10vw;
+}
+/************* wrapper *************/
+/************* green *************/
+ 
+ .green{
+  background-color: #82ca9c;
+  height: 35vw;
+  padding: 5vw 0;
+ position: relative;
+  background-size: auto;  
+  top:0;
+  margin: 0; 
+  width: 100%;
+ } 
+ .green h4{
+  font-size: 30px;
+  font-family: "OpenSans",sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 0.686;
+  position: relative;
+  top:0;
+  left: 11vw;
+ }
+  .green .col-lg-3  {
+    color: #fff;
+    position: relative;
+    top: 3vw;
+    left: 10vw;
+    margin: 0;
+  }
+   .green .col-lg-3 h3{
+    font-size: 13px;
+  font-family: "OpenSans",sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  top: 0;
+  position: relative;
+   }
+   .green .col-lg-3 p{
+    font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+  line-height: 1.714;
+  position: relative;
+   }
+/************* green *************/
+
+/************* the-two-grid *************/
+.jumbotron{
+  position: relative;
+ top: 0;
+ bottom: 0;
+}
+
+.two-grid .clearfix{
+  margin: 0 4vw;
+  min-width: 30vw;
+  transition: 0.5s;
+  left: 0;
+  position: relative;
+  padding: 2vw 10vw 2vw 2vw;
+  overflow-y: hidden;
+}
+
+.two-grid .clearfix:hover > .tag{
+  opacity: 1;
+}
+.two-grid .clearfix:hover{
+  background-color: #fff;
+  background-size: cover;
+  min-width: 30vw;
+z-index: 1;
+  margin: 0 4vw;
+-webkit-box-shadow: -1px 3px 33px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 3px 33px -7px rgba(0,0,0,0.75);
+box-shadow: -1px 3px 33px -7px rgba(0,0,0,0.75);
+}
+
+.two-grid .tag{
+   font-size: 11px;
+  font-family: "OpenSans",sans-serif;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 2;
+  padding: 0 2vw; 
+  font-weight: bold;
+  text-align: center;
+  transition: 0.5s;
+
+  opacity: 0.2 ;
+}
+.two-grid h3{
+   font-size: 25px;
+  font-family: "OpenSans",sans-serif;
+  color: rgb(46, 59, 78);
+  line-height: 1.333;
+  text-align: left;
+  text-transform: uppercase;
+  -moz-transform: matrix( 1,0,0,1.00121956198104,0,0);
+  -webkit-transform: matrix( 1,0,0,1.00121956198104,0,0);
+  -ms-transform: matrix( 1,0,0,1.00121956198104,0,0);
+}
+.two-grid p{
+ font-size: 12px;
+  font-family: "OpenSans";
+  color: rgb(130, 151, 167);
+  line-height: 1.786;
+  text-align: left;
+  left: 0;
+  width: 25vw;
+  position: relative;
+  -moz-transform: matrix( 1,0,0,1.00121956198104,0,0);
+  -webkit-transform: matrix( 1,0,0,1.00121956198104,0,0);
+  -ms-transform: matrix( 1,0,0,1.00121956198104,0,0);
+}
+.two-grid .buy{
+   font-size: 11px;
+  font-family: "OpenSans",sans-serif;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 2;
+border: none;
+padding: 1vw 3vw;
+  font-weight: bold;
+  text-align: center;
+  background-color: #82ca9c;
+}
+.two-grid  img{
+  margin-top: 1vw;  
+margin-right: 1vw;
+}
+/************* the-two-grid *************/
+
+/************* footer *************/
+footer{
+position: static;
+bottom: 0;
+top: 0;
+margin-top: -5vw;
+padding:5% 10%;
+height: auto;
+background-color: #192431;
+
+}
+footer .row {
+  position: relative;
+
+}
+
+footer .row .clearfix h3{
+  font-size: 13px;
+  font-family: "OpenSans",sans-serif;
+  color: rgb(246, 247, 250);
+  line-height: 1.846;
+position: relative;
+left: -15vw;
+
+}
+footer .row .clearfix:nth-child(2) h3{
+left: 0;
+}
+footer .row .clearfix p{
+  font-size: 13px;
+  font-family: "Myriad Pro",sans-serif;
+  color: rgb(246, 247, 250);
+  line-height: 1.846;
+  position: relative;
+  min-width:45vw;
+  width: 50%;
+left: -15vw;
+
+}
+
+footer .row .clearfix:nth-child(2) p{
+  font-size: 8px;
+  position: relative;
+  font-family: "Myriad Pro",sans-serif;
+  color: rgb(87, 105, 127);
+  line-height: 1.5;
+  left: 15vw;
+  text-align: left;
+}
+footer .row .clearfix:nth-child(2) input[type=text]{
+width: 100%;
+border:2px solid #aaa;
+border-radius: 4px;
+margin: 0;
+outline: none;
+padding: 8px;
+box-sizing: border-box;
+transition: .3s
+}
+.inputWithIcon input[type=text]{
+  padding-left: 40px;
+}
+.inputWithIcon {
+  position: relative;
+  left: 15vw;
+
+}
+.inputWithIcon i{
+  position: absolute;
+  right: 0;
+  background-color: #82ca9c;
+  top:2.3vw;
+  padding: :5vw ;
+  color: #fff;
+  font-size: 42px;
+}
+footer .last{
+  display: inline-block;
+  left: 1.5vw;
+  margin: 0;
+}
+footer .last h3{
+   font-size: 13px;
+  font-family: "OpenSans",sans-serif;
+  color: rgb(246, 247, 250);
+  position: relative;
+  right: -3vw;
+  line-height: 1.846;
+}
+footer .last ul{
+  position: relative;
+  width: 100%   ;
+  left: 0;
+  list-style-type: none;
+}
+footer .last ul li a{
+  text-decoration: none;
+  list-style-type: : none;
+  left:-8vw;
+    font-size: 13px;
+  font-family: "OpenSans",sans-serif;
+  color: rgb(246, 247, 250);
+  line-height: 1.846;
+
+  text-align: left;
+}
+/************* footer *************/
