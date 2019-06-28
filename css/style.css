@@ -8,7 +8,7 @@ overflow-x: hidden;}
 
 /************* header *************/
 header{
-background: url("img/Image.jpg") no-repeat;
+background: url("https://harounsdw.github.io/take.githib.io/img/Image.jpg") no-repeat;
 background-size: cover;
 height:40vw;
 }
@@ -141,7 +141,7 @@ to{ transform: translateX(-40vw); }
  background-color: #615f7d;
 
 }.grid .col-md-3:nth-child(3) {
- background:url('img/Layer6.jpg') no-repeat;
+ background:url('https://harounsdw.github.io/take.githib.io/img/Layer6.jpg') no-repeat;
  background-size: cover;
 
 }.grid .col-md-3:nth-child(4) {
@@ -190,14 +190,14 @@ top: 0;
   padding:2vw;
 }
 .grid-1 .clearfix:nth-child(1){
-   background:url('img/Layer5.jpg') no-repeat;
+   background:url('https://harounsdw.github.io/take.githib.io/img/Layer5.jpg') no-repeat;
  background-size: cover;
 }
 .grid-1 .clearfix:nth-child(2){
 background-color: #82ca9c;
 }
 .grid-1 .clearfix:nth-child(3){
-  background:url('img/Layer14.png') no-repeat;
+  background:url('https://harounsdw.github.io/take.githib.io/img/Layer14.png') no-repeat;
  background-size: cover;
 }
 .grid-1  .clearfix p {
@@ -260,7 +260,7 @@ font-size: 14px;
 
 /************* wrapper *************/
 .image{
-background: url("img/Layer8.jpg") no-repeat;
+background: url("https://harounsdw.github.io/take.githib.io/img/Layer8.jpg") no-repeat;
 background-size: cover;
 position: relative;
 top:0;
