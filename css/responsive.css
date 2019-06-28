@@ -129,4 +129,13 @@ left: 0;
 	right: 0;
 
  }
+ .inputWithIcon i{
+  position: absolute;
+  right: 0;
+  background-color: #82ca9c;
+ bottom: 0;
+  padding: :5vw ;
+  color: #fff;
+  font-size: 42px;
+}
 }
